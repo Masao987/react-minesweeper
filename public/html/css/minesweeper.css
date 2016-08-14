@@ -1,0 +1,70 @@
+.game-btns {
+    text-align: center;
+    padding: 10px;
+}
+
+#app {
+    font-family: Tahoma, sans-serif;
+    border:3px solid gray;
+    font-size: 18px;
+    font-weight: bold;
+    width: 411px;
+}
+
+#app .one {
+    color: green;
+}
+
+#app .two {
+    color: blue;
+}
+
+#app .three {
+    color: red;
+}
+
+table.area {
+    border-collapse: collapse;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+img {
+    border: 0px;
+    padding: 0px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    display:table-cell;
+}
+
+table.area tr td {
+    text-align: center;
+    border:1px solid #eee;
+    width:40px;
+    height:40px;
+    vertical-align: middle;
+    padding: 0px;
+    margin: 0px;
+}
+
+table.area td:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+#app .status {
+    height: 411px;
+}
+
+#app .status h1 {
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
